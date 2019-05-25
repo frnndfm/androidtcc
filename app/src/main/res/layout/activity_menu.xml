@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FF8C00"
+    tools:context=".MenuActivity">
+
+    <ImageView
+        android:id="@+id/imgconfig"
+        android:layout_width="70dp"
+        android:layout_height="65dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp"
+        android:src="@drawable/settings" />
+
+    <TextView
+        android:id="@+id/txtconfigmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="18dp"
+        android:text="Configuração"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imgserv"
+        android:layout_width="75dp"
+        android:layout_height="70dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginBottom="223dp"
+        android:src="@drawable/recep" />
+
+    <TextView
+        android:id="@+id/txtservmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/imgserv"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="188dp"
+        android:text="Serviços"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imggasto"
+        android:layout_width="75dp"
+        android:layout_height="70dp"
+        android:layout_alignBottom="@+id/imgserv"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="64dp"
+        android:layout_marginRight="64dp"
+        android:src="@drawable/gasto" />
+
+    <TextView
+        android:id="@+id/txtgastomenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/txtservmenu"
+        android:layout_marginStart="-3dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/txtconfigmenu"
+        android:text="Gastos"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imgusu"
+        android:layout_width="75dp"
+        android:layout_height="70dp"
+        android:layout_alignStart="@+id/imgserv"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="102dp"
+        android:src="@drawable/avatar" />
+
+    <TextView
+        android:id="@+id/txtusumenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/txtservmenu"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="187dp"
+        android:text="Usuário"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imgprod"
+        android:layout_width="75dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/imgusu"
+        android:layout_alignEnd="@+id/imggasto"
+        android:src="@drawable/cart" />
+
+    <TextView
+        android:id="@+id/txtprodmenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/txtusumenu"
+        android:layout_alignEnd="@+id/txtgastomenu"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="-10dp"
+        android:text="Produtos"
+        android:textSize="18sp" />
+</RelativeLayout>

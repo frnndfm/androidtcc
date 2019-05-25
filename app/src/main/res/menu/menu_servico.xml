@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemmenu"
+        android:title="Menu"
+        android:showAsAction="always" />
+    <item
+        android:id="@+id/itemprodutos"
+        android:title="Produtos"
+
+        />
+    <item
+        android:id="@+id/itemmeusdados"
+        android:title="Usuário"
+
+        />
+    <item
+        android:id="@+id/itemgastos"
+        android:title="Gastos"
+
+        />
+    <item
+        android:id="@+id/itemconfig"
+        android:title="Configurações"
+
+        />
+</menu>
